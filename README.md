@@ -33,7 +33,7 @@ _Installation_
 To install ReLU_Plus_Plus, you can use the following command:
 
 ```
-git clone https://github.com/aluminarius/ReLU_Plus_Plus.git
+git clone https://github.com/akinetic/ReLU_Plus_Plus.git
 ```
 
 _Usage_
