@@ -33,7 +33,7 @@ _Installation_
 To install ReLU_Plus_Plus, you can use the following command:
 
 ```
-git clone https://github.com/akinetic/ReLU_Plus_Plus.git
+git clone https://github.com/akinetic/relu-plus-plus.git
 ```
 
 _Usage_
@@ -41,11 +41,11 @@ _Usage_
 To use ReLU_Plus_Plus in your machine learning models, simply import the function and use it like any other activation function:
 
 ```
-from relu_plus_plus import ReLU_Plus_Plus
+from relu_plus_plus import relu-plus-plus
 
 Create a machine learning model
 model = tf.keras.models.Sequential([
-    tf.keras.layers.Dense(64, activation=ReLU_Plus_Plus(a=0.1, b=0.5)),
+    tf.keras.layers.Dense(64, activation=relu-plus-plus(a=0.1, b=0.5)),
     tf.keras.layers.Dense(10, activation='softmax')
 ])
 ```
